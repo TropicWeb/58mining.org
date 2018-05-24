@@ -1,0 +1,171 @@
+
+body{
+	background-color: #fff;
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Orbitron', sans-serif;
+}
+
+/*Sección 1*/
+
+.barra{
+	background-color: black;
+
+}
+
+.itemMenu{
+    color: #fff;
+    font-size: 1.175em;
+}
+
+.itemMenu:hover,
+.itemMenu:active{
+    color: #F3C677;
+}
+
+a:focus, a:hover {
+    color: #F3C677;
+    text-decoration: underline;
+    outline: 5px auto transparent;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: black;
+    background-image: none;
+    border: 8px solid transparent;
+    border-radius: 5px;
+}
+
+.icon-bar{
+   background-color: #85C7F2;
+}
+
+.section1{
+    margin-bottom: 84px;/*10px para separacion blanca*/
+}
+/*Fin Seccion 1*/
+
+
+/*Sección 2*/
+ .section2{
+    height: auto;
+    background-image: url('../Images/dark.png');
+    background-attachment: fixed;
+    margin-bottom: 10px;
+ }
+/*Fin Seccion 2*/
+
+/*Sección 3*/
+.section3{
+    background-color: #1f2a44;
+    height: auto;
+}
+
+.martex{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texthome{
+    color: #fff;
+    font-family: 'Rubik';
+}
+
+/*Fin Seccion 3*/
+
+/*Sección 4*/
+.section4{
+    height: auto;
+    margin-top: 10px;
+}
+
+.blockchain{
+    font-size: 3em;
+}
+
+.parallax{
+    width: 100%;
+    height: ;
+    background-image: url('../Images/paralize.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.textchain{
+    font-size: 3.625em;
+}
+
+.hometex{
+    font-size: 1.1em;
+    font-family:'Rubik';
+}
+/*Fin Seccion 4*/
+
+/*Sección 5*/
+.section5{
+    background-color: #ce9729;
+    height: auto;
+}
+
+.copyR{
+    height: 100px;
+    width: auto;
+    padding: 5px;
+}
+
+.menuF{
+    color: #1f2a44;
+    font-size: 1.3em;
+}
+
+.menuF:hover,
+.menuF:active{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fot{
+    margin-top: 50px;
+}
+/*Fin Seccion 5*/
+
+/*EXTRA QUERYS*/
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0px;
+}
+
+.navbar-nav {
+   margin: 11.5px -15px;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent;
+}
+
+}
+
+
+/*FIN DE EXTRA QUERYS*/
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}4
