@@ -41,7 +41,7 @@ a:focus, a:hover {
 }
 
 .icon-bar{
-   background-color: #85C7F2;
+   background-color: #FFF;
 }
 
 .section1{
@@ -54,8 +54,8 @@ a:focus, a:hover {
 
 .section2{
     background-image: url('../Images/f5.jpg');
-    height: 500px;
-    margin-bottom: 10px;
+    height: 78vh;
+    margin-bottom: 9px;
 }
 
 .rowus{
@@ -71,12 +71,24 @@ a:focus, a:hover {
 }
 
 .cajete{
-    height: 200px;
+    height: 300px;
     width: auto;
     background-color: white;
-    border: 2px solid black;
+    padding: 10px;
+    font-family: 'Rubik';
+    box-shadow:3px -2px 4px 2px #828996;
 }
 
+.textbig{
+    font-size: 3em;
+    color: #1f2a44;
+    margin-top: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.textlow{
+    margin-top: 50px;
+}
 /*Fin Seccion 2*/
 
 
@@ -126,18 +138,51 @@ a:focus, a:hover {
 }
 /*FIN DE EXTRA QUERYS*/
 
+@media (max-width: 575.98px) {
+    .section2{
+        background-color: #1f2a44;
+        background-image: url('');
+        height: 1000px;
+        margin-bottom: 0px;
+    }
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+    .us{
+       color: #fff;
+    }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
+    .jey{
+        margin-top: 60px;
+    }
 
-// Medium devices (tablets, 768px and up)
+    .section1{
+        margin-bottom: 74px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section2{
+        background-color: #1f2a44;
+        background-image: url('');
+        height: 1000px;
+        margin-bottom: 0px;
+    }
+
+    .us{
+       color: #fff; 
+    }
+
+     .jey{
+        margin-top: 80px;
+    }
+
+    .section1{
+        margin-bottom: 74px;
+    }
+
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
-// Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
-// Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}

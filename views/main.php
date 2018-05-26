@@ -36,10 +36,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav menu">
-        <li class="active"><a class="itemMenu" href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a class="itemMenu" href="#">Us</a></li>
-        <li><a class="itemMenu" href="#">Statics</a></li>
-        <li><a class="itemMenu" href="#">Calculator</a></li>        
+        <li class="active"><a class="itemMenu" href="<?php echo BASE_URL;?>">Home<span class="sr-only">(current)</span></a></li>
+        <li><a class="itemMenu" href="us">Us</a></li>
+        <li><a class="itemMenu" href="statics">Statics</a></li>
+        <li><a class="itemMenu" href="calculator">Calculator</a></li>        
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
@@ -160,10 +160,10 @@
   <div class="row">
     <article class="col-xs-12 col-md-4 col-lg-4">
       <ul class="list-inline text-center fot">
-        <li><a href="#" class="menuF" >Home</a></li>
-        <li><a href="#" class="menuF" >Us</a></li>
-        <li><a href="#" class="menuF" >Statics</a></li>
-        <li><a href="#" class="menuF" >Calculator</a></li>
+        <li><a href="<?php echo BASE_URL;?>" class="menuF" >Home</a></li>
+        <li><a href="us" class="menuF" >Us</a></li>
+        <li><a href="statics" class="menuF" >Statics</a></li>
+        <li><a href="calculator" class="menuF" >Calculator</a></li>
       </ul>
     </article>
     <article class="col-xs-12 col-md-4 col-lg-4"></article>
