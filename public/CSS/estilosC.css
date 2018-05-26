@@ -44,18 +44,37 @@ a:focus, a:hover {
    background-color: #85C7F2;
 }
 
+.section1{
+    margin-bottom: 74px;/*10px para separacion blanca*/
+}
 /*Fin Seccion 1*/
 
 
 /*Sección 2*/
 
 .section2{
-	height: 700px;
-	background-image: url('../images/f5.jpg');
+    background-image: url('../Images/f5.jpg');
+    height: 500px;
+    margin-bottom: 10px;
 }
 
-.convert{
-	
+.rowus{
+    margin-top:40px; 
+}
+
+.rowus2{
+    margin-top:60px; 
+}
+
+.us{
+    font-size: 3em;
+}
+
+.cajete{
+    height: 200px;
+    width: auto;
+    background-color: white;
+    border: 2px solid black;
 }
 
 /*Fin Seccion 2*/

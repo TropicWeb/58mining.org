@@ -54,8 +54,6 @@ a:focus, a:hover {
 /*Sección 2*/
  .section2{
     height: auto;
-    background-image: url('../Images/dark.png');
-    background-attachment: fixed;
     margin-bottom: 10px;
  }
 /*Fin Seccion 2*/
@@ -82,6 +80,7 @@ a:focus, a:hover {
 .section4{
     height: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .blockchain{
@@ -91,7 +90,7 @@ a:focus, a:hover {
 .parallax{
     width: 100%;
     height: ;
-    background-image: url('../Images/paralize.jpg');
+    background-image: url(../Images/paralize.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -109,6 +108,35 @@ a:focus, a:hover {
 
 /*Sección 5*/
 .section5{
+    background-color: #fff;
+    height: auto;
+    margin-bottom: 10px;
+}
+/*Fin Seccion 5*/
+
+/*Sección 6*/
+.section6{
+    background-color:#1f2a44;
+    height: auto;
+    color: #fff;
+}
+
+.tips{
+    background-color:#fff ;
+    height: 285px;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Rubik';
+    color: #1f2a44;
+}
+
+.test{
+    margin: 20px auto 0 auto;
+}
+/*Fin Seccion 6*/
+
+/*Sección F*/
+.sectionF{
     background-color: #ce9729;
     height: auto;
 }
@@ -133,7 +161,7 @@ a:focus, a:hover {
 .fot{
     margin-top: 50px;
 }
-/*Fin Seccion 5*/
+/*Fin Seccion F*/
 
 /*EXTRA QUERYS*/
 @media (min-width: 768px){
@@ -151,21 +179,71 @@ a:focus, a:hover {
 }
 
 }
-
-
 /*FIN DE EXTRA QUERYS*/
 
-// Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .tips{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+        height: 220px;
+    }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) and (max-width: 767.98px) {}
+    .test{
+       margin:8px auto 0 auto; 
+    }
 
-// Medium devices (tablets, 768px and up)
+    .section6{
+        font-size: 0.9em;
+    }
+
+    .section4{
+        font-size: 0.9em;
+    }
+
+    .section3{
+        font-size: 0.9em;
+    }
+
+    .auxbr{
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .tips{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 0.9em;
+        height: 200px;
+    }
+
+    .test{
+       margin:8px auto 0 auto; 
+    }
+
+    .section6{
+        font-size: 0.9em;
+    }
+
+    .section4{
+        font-size: 0.9em;
+    }
+
+    .section3{
+        font-size: 0.9em;
+    }
+
+    .auxbr{
+        display: none;
+    }
+}
+
+
 @media (min-width: 768px) and (max-width: 991.98px) {}
 
-// Large devices (desktops, 992px and up)
+
 @media (min-width: 992px) and (max-width: 1199.98px) {}
 
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {}4
+
+@media (min-width: 1200px) {}
